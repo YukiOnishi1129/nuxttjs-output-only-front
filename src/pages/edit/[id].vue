@@ -1,7 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TodoEditTemplate from "../../components/Templates/TodoEditTemplate.vue";
+</script>
 
 <template>
-  <div>
-    <h1>Edit</h1>
-  </div>
+  <TodoEditTemplate />
 </template>

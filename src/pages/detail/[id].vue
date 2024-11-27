@@ -1,7 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TodoDetailTemplate from "../../components/Templates/TodoDetailTemplate.vue";
+</script>
 
 <template>
-  <div>
-    <h1>Detail</h1>
-  </div>
+  <TodoDetailTemplate />
 </template>

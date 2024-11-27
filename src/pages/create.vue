@@ -1,7 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TodoCreateTemplate from "../components/Templates/TodoCreateTemplate.vue";
+</script>
 
 <template>
-  <div>
-    <h1>Create</h1>
-  </div>
+  <TodoCreateTemplate />
 </template>
