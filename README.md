@@ -1,75 +1,50 @@
-# Nuxt Minimal Starter
+# nuxtjs-output-front-only
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+nuxt アウトプットサンプル
 
-## Setup
+composition api と Provide/inject を用いて Todo リストの基本的な機能を構築
 
-Make sure to install dependencies:
+typescript で構築
 
-```bash
-# npm
+## 目次
+
+1. 環境構築
+2. アプリケーションの仕様
+
+## 1. 環境構築
+
+### 1-1. ライブラリ インストール
+
+```
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+### 1-2. アプリケーション実行
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+```
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## 2. アプリケーションの仕様
 
-Build the application for production:
+### 2-1. 仕様
 
-```bash
-# npm
-npm run build
+- Todo リスト
+  - Todo 一覧表示
+  - Todo 詳細表示
+  - Todo 検索処理
+  - Todo 新規登録処理
+  - Todo 更新処理
+  - Todo 削除処理
 
-# pnpm
-pnpm build
+### 2-2. 構成技術
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- typescript: 5.7.2
+- nuxt: 3.14.1592
+- vue: latest
+- vue-router: latest
+- @fortawesome/fontawesome-svg-core: 6.6.0
+- @fortawesome/free-brands-svg-icons: 6.6.0
+- @fortawesome/free-regular-svg-icons: 6.6.0
+- @fortawesome/free-solid-svg-icons: 6.6.0
+- @fortawesome/vue-fontawesome: 3.0.8
